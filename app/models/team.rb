@@ -1,5 +1,5 @@
 class Team
-  attr_accessor :name, :motto, :heroes
+  attr_accessor :name, :motto, :members
 
   @@all = []
 
