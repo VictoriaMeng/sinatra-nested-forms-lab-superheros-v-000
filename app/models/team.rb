@@ -4,7 +4,6 @@ class Team
   @@all = []
 
   def initialize(args)
-    binding.pry
     args.each { |key, value| self.send("#{key}=", value) }
     @@all << self
   end
